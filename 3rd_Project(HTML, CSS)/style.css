@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+body{
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+nav div img {
+    width: 100px;
+}
+
+nav div {
+    display: flex;
+    gap: 40px;
+}
+
+nav div ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+nav div ul li a{
+    color: white;
+    font-weight: 500;
+}
+nav div ul li a:hover{
+    color: #B90EC5;
+    text-decoration: underline;
+}
+.btn{
+    padding: 5px 30px;
+    background-color: #B90EC5;
+    border: 2px solid #B90EC5;
+    
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #B90EC5;
+    border: 2px solid #B90EC5;
+}
+section{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section h1{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+section p{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+section button{
+    margin-top: 30px;
+    font-size: xx-large;
+}
